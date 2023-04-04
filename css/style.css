@@ -1,0 +1,278 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    background-color: #FDFCEF;
+    ;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-weight: 700;
+    line-height: 1.40em;
+}
+
+p {
+    margin: 0;
+    line-height: 1.37em;
+}
+
+.container {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+}
+
+section {
+    padding-top: 120px;
+}
+
+.introtext {
+    font-weight: 500;
+    font-size: 18px;
+    width: 423px;
+    margin: 30px 0px;
+}
+
+.btn {
+    background-color: 
+    #FF6861;
+    border-radius: 100px;
+    color: #FFFFFF;
+    padding: 22px 70px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    width: 227px;
+    display: block;
+    transition: all 0.5s ease;
+}
+
+.btn:hover {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+.header {
+    padding-top: 60px;
+}
+
+.offer-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 82px;
+}
+
+.offer {
+    width: 465px;
+}
+
+.digit-item {
+    display: flex;
+    align-items: center;
+}
+
+.digit-wrap {
+    margin-left: 34px;
+}
+
+.digit-title {
+    font-size: 30px;
+    margin-bottom: 11px;
+}
+
+.digits {
+    display: flex;
+    flex-direction: column;
+    gap: 41px;
+    width: 720px;
+    margin: 70px auto 0 auto;
+}
+
+.practice-wrap {
+    background: linear-gradient(102deg, #FFF6DF 17.38%, #FFDFDE 81.25%);
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    padding: 76px 125px 75px 122px;
+}
+
+.practice-block {
+    width: 475px;
+    margin-right: 101px;
+}
+
+.practice-title {
+    text-align: left;
+}
+
+.practice-text {
+    width: 371px;
+    margin: 24px 0;
+}
+
+.ladybug {
+    width: 287px;
+    height: 287px;
+}
+
+.footer-text {
+    padding: 120px 0;
+    text-align: center;
+    font-size: 15px;
+}
+
+/* Responsive */
+
+/* Large: 992px - 1199px */
+@media (max-width:1199px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+/* Medium: 768px - 991px */
+@media (max-width:991px) {
+    .container {
+        max-width: 720px;
+    }
+
+    .logo {
+        display: flex;
+        margin: 0 auto;
+    }
+
+    .offer-wrapper {
+        flex-direction: column-reverse;
+        text-align: center;
+        margin-top: 79px;
+        gap: 51px;
+    }
+
+    .btn {
+        margin: 0 auto;
+    }
+
+    .offer {
+        width: 720px;
+    }
+
+    .introtext {
+        width: 720px;
+    }
+
+    .practice-wrap {
+        flex-direction: column-reverse;
+        padding: 101px 144px;
+        gap: 101px;
+    }
+
+    .practice-block {
+        width: 432px;
+        margin: 0 auto;
+    }
+
+    .practice-title {
+        text-align: center;
+    }
+
+    .practice-text {
+        margin: 24px auto;
+        text-align: center;
+    }
+}
+
+/* Small: 576px - 767px */
+@media (max-width:767px) {
+    .container {
+        max-width: 540px;
+    }
+
+    .offer-wrapper {
+        margin-top: 50px;
+
+    }
+    .offer {
+        width: auto;
+    }
+
+    .introtext {
+        width: auto;
+    }
+
+    .digit-item {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .digit-wrap {
+        margin: 0;
+    }
+
+    .digits {
+        width: auto;
+        margin: 50px auto 0 auto;
+    }
+
+    .practice-wrap {
+        width: 100%;
+        padding: 101px 54px;
+    }
+}
+
+/* Extra small: 0px (320px) - 575px */
+@media (max-width:575px) {
+    .container {
+        max-width: 320px;
+        padding: 0 3px;
+    }
+
+    .offer-wrapper img {
+        width: 320px;
+    }
+
+    section {
+        padding-top: 90px;
+    }
+
+    .digit-wrap {
+        margin-top: 34px;
+    }
+
+    .practice-wrap {
+        width: 100%;
+        padding: 70px 20px;
+        gap: 50px;
+    }
+
+    .ladybug {
+        width: 201px;
+        height: 201px;
+    }
+
+    .practice-block {
+        width: 100%;
+    }
+
+    .practice-text {
+        width: 100%;
+    }
+
+    .footer-text {
+        padding: 90px 0;
+    }
+}   
